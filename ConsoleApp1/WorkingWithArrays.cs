@@ -8,9 +8,6 @@ public class LearningArrays
 {
     public void Run()
     {
-        // double[] arrayDouble = new double[6]
-        // Read in the number of values to enter
-        
         Console.Write("Enter the number of values to average: ");
         int numElements = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine();
