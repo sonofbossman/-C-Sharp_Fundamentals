@@ -21,8 +21,8 @@ public class LearningArrays
         for (int i = 0; i < numElements; i++)
         {
             // Prompt the user for another double
-            Console.Write("enter double #" + (i+1) + ": ");
-            string val = Console.ReadLine();
+            Console.Write("enter double #" + (i + 1) + ": ");
+            string? val = Console.ReadLine();
             Console.WriteLine();
             double value;
 
