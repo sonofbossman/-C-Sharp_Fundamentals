@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\USER\\Documents\\C# Folder\\-C-Sharp_Fundamentals\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\USER\\Documents\\C# Folder\\-C-Sharp_Fundamentals\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\USER\\Documents\\C# Folder\\-C-Sharp_Fundamentals\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\USER\\Documents\\C# Folder\\-C-Sharp_Fundamentals\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\USER\\Documents\\C# Folder\\-C-Sharp_Fundamentals\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\C# Folder\\-C-Sharp_Fundamentals\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "c:\\Users\\USER\\Documents\\C# Folder\\-C-Sharp_Fundamentals\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\USER\\Documents\\C# Folder\\-C-Sharp_Fundamentals\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\USER\\Documents\\C# Folder\\-C-Sharp_Fundamentals\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\C# Folder\\-C-Sharp_Fundamentals\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

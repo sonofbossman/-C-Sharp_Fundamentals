@@ -18,6 +18,12 @@ public class LearningLists
         int[] newValues = new int[]{7, 8};
         myList.AddRange(newValues);
 
+        // Remove the value 4 from the list.
+        myList.Remove(4);
+
+        // Print the third element in the list.
+        Console.WriteLine("Third Element: " + myList[2]);
+
         //  Iterate through the list using a foreach loop and print each element.
         foreach (int i in myList)
         {
