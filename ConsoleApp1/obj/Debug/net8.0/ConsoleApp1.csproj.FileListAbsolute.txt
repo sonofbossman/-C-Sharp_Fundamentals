@@ -26,3 +26,4 @@ c:\Users\USER\Documents\C# Folder\-C-Sharp_Fundamentals\ConsoleApp1\obj\Debug\ne
 c:\Users\USER\Documents\C# Folder\-C-Sharp_Fundamentals\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
 c:\Users\USER\Documents\C# Folder\-C-Sharp_Fundamentals\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 c:\Users\USER\Documents\C# Folder\-C-Sharp_Fundamentals\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+c:\Users\USER\Documents\C# Folder\-C-Sharp_Fundamentals\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json

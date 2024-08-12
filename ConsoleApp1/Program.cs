@@ -12,8 +12,12 @@ namespace Program2
         static void Main(string[] args)
         {
             //Declare class LearningArrays
-            LearningArrays L_Arrays = new LearningArrays();
-            L_Arrays.Run();
+            // LearningArrays L_Arrays = new LearningArrays();
+            // L_Arrays.Run();
+
+            //Declare class LearningLists
+            LearningLists L_Lists = new LearningLists();
+            L_Lists.Run();
 
         }
     }
