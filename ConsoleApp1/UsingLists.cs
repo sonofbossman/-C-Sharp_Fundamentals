@@ -24,6 +24,13 @@ public class LearningLists
         // Print the third element in the list.
         Console.WriteLine("Third Element: " + myList[2]);
 
+        // Change the first element in the list to '10'.
+        myList[0] = 10;
+
+        // Sort the list in descending order and print the result.
+        myList.Sort();
+        myList.Reverse();
+
         //  Iterate through the list using a foreach loop and print each element.
         foreach (int i in myList)
         {
