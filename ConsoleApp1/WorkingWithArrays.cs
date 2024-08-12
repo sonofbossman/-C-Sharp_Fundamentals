@@ -13,7 +13,7 @@ public class LearningArrays
         Console.Write("Enter the number of values to average: ");
         int numElements = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine();
-        string val;
+        
             
 
         // Now declare an array of that size
@@ -22,34 +22,22 @@ public class LearningArrays
         {
             // Prompt the user for another double
             Console.Write("enter double #" + (i+1) + ": ");
-            val = Console.ReadLine();
+            string val = Console.ReadLine();
             Console.WriteLine();
             double value;
 
-            if (Double.TryParse(val, out value))
+            while (!Double.TryParse(val, out value))
             {
-                // Add this to the array using bracket notation.
-                doubleArrays[i] = value;
-            }
-            else
-            {
-                for (;;)
-                {
-                    // Prompt the user for another input.
+                // Prompt the user for another input.
                     Console.WriteLine($"Attempted to input '{val}' for double #{i+1}!");
                     Console.Write("re-enter double #" + (i+1) + ": ");
                     val = Console.ReadLine();
                     Console.WriteLine();
-
-                    if (Double.TryParse(val, out value))
-                    {
-                        // Add this to the array using bracket notation.
-                        doubleArrays[i] = value;
-                        break;
-                    }
-                }
-                    
             }
+
+            // Store the valid double in the array
+            doubleArrays[i] = value;
+            
         }
             
         // Compute the sum of array values
@@ -67,8 +55,7 @@ public class LearningArrays
         Console.WriteLine("Length of Array: " + doubleArrays.Length);
         Console.WriteLine("Average: " + average);
 
-        //double[] slicedArray = doubleArrays[1..4];
-
+        // double[] slicedArray = doubleArrays[1..4];
         // Console.WriteLine(string.Join(", ", slicedArray));
         // Console.WriteLine(doubleArrays[^1]);
     }
