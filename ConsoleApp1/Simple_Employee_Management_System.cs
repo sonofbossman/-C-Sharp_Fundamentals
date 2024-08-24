@@ -89,8 +89,9 @@ public class EMS
                     employees.Add(name,  department);
                     if (employees.ContainsKey(name))
                     {
-                        Console.WriteLine("1 new record added!");
+                        Console.WriteLine("1 new record added!\n\n");
                     }
+                    Console.WriteLine("------------------------------------------------------");
                         
                     break;
             
@@ -111,9 +112,9 @@ public class EMS
                         // Proceed to remove record if it's a valid name and name is contained in DB.
                         employees.Remove(name);
                         // Inform the user of the action.
-                        Console.WriteLine("1 record deleted!");
+                        Console.WriteLine("1 record deleted!\n\n");
                     }
-
+                    Console.WriteLine("------------------------------------------------------");
                     break;
                 
                 case "3":
@@ -143,15 +144,16 @@ public class EMS
 
                         // Update and inform user
                         employees[name] = department;
-                        Console.WriteLine("1 record updated!");
+                        Console.WriteLine("1 record updated!\n\n");
                     }
+                    Console.WriteLine("------------------------------------------------------");
                     break;
                 
                 case "4":
                     Console.WriteLine("\n**** All Employees and their Departments ****\n\n");
                     if (employees.Count == 0)
                     {
-                        Console.WriteLine("No Record Found!");
+                        Console.WriteLine("No Record Found!\n\n\n");
                     }
                     else
                     {
@@ -160,6 +162,7 @@ public class EMS
                             Console.WriteLine($"Name: {employee.Key.PadRight(8)} Department: {employee.Value}");
                         }
                     }
+                    Console.WriteLine("------------------------------------------------------");
                     break;
                 
                 case "5":
@@ -175,6 +178,7 @@ public class EMS
                     {
                         Console.WriteLine($"Name: {name.PadRight(8)} Department: {employees[name]}");
                     }
+                    Console.WriteLine("------------------------------------------------------");
                     break;
                 
                 case "6":
