@@ -31,8 +31,11 @@ namespace Program2
             // EMS sms_obj = new EMS();
             // sms_obj.Run();
 
-            LinqClass linq1 = new LinqClass();
-            linq1.Run();
+            // LinqClass linq1 = new LinqClass();
+            // linq1.Run();
+
+            Employee emp_class = new Employee();
+            emp_class.Run();
 
         }
     }
