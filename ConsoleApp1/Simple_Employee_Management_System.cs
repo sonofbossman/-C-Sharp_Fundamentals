@@ -23,7 +23,7 @@ How can you ensure that adding a new employee does not overwrite an existing one
 using System.Diagnostics.Tracing;
 
 public class EMS
- {
+{
     Dictionary<string, string> employees = new Dictionary<string, string>();
     public void Run()
     {
@@ -193,5 +193,5 @@ public class EMS
         }
     }
 
- }
+}
 

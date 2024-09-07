@@ -28,8 +28,11 @@ namespace Program2
             // Console.WriteLine("Index of 0 is: " + newString.IndexOf("0"));
             // Console.WriteLine("First Element in List newString: " + newString[0]);
 
-            EMS sms_obj = new EMS();
-            sms_obj.Run();
+            // EMS sms_obj = new EMS();
+            // sms_obj.Run();
+
+            LinqClass linq1 = new LinqClass();
+            linq1.Run();
 
         }
     }
