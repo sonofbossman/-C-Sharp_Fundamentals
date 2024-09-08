@@ -34,8 +34,11 @@ namespace Program2
             // LinqClass linq1 = new LinqClass();
             // linq1.Run();
 
-            Employee emp_class = new Employee();
-            emp_class.Run();
+            // Employee emp_class = new Employee();
+            // emp_class.Run();
+
+            Product product= new Product();
+            product.Run();
 
         }
     }
